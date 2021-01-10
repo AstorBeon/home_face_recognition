@@ -4,7 +4,7 @@ from time import sleep
 
 
 class Person:
-    TIMEOUT = 5*60
+    TIMEOUT = 5*60  #timeout to set user inactive
 
 
     def __init__(self,name):
